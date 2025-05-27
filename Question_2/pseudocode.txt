@@ -1,0 +1,16 @@
+Question2.
+Input:
+List of student objects 
+List of bus objects
+
+Process:
+- Create an euclidean function that takes in two arguments which are p1 & p2
+- p1 & p2 represent the location coordinates 
+- Calculate the difference between two points and return result
+- initialize an empty object to store the student id as key and bus id as a value
+- loop through the students list
+- access the student location
+- access bus stop location from list of bus stops
+- find minimum distance using euclidean function
+- push the student id as key and the bus id with minimum distance as value to the empty object
+- print object with the student id and their respective bus id.
