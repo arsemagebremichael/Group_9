@@ -19,10 +19,10 @@ function studentsStatistics(students) {
         let max = 0;
         for(let j =0; j<scores.length; j++){
             if (scores[j]> max){
-                max = scores[j]
+                max = scores[j];
             }
             if (scores[j]< min){
-                min = scores[j]
+                min = scores[j];
             }
             
         }
