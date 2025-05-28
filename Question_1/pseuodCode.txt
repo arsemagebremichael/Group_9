@@ -1,4 +1,4 @@
-Question1d .
+Question1
 Input: 
 object of student names and student scores
 
