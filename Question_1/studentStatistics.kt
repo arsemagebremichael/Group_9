@@ -2,7 +2,8 @@ fun main(){
     var student1 = Student("Alice", arrayOf(70.0,89.0,97.0))
     var student2 = Student("Mark", arrayOf(90.0,89.0,97.0))
     var student3= Student("Bob", arrayOf(70.0,80.0,97.0))
-    var students = listOf(student1,student2, student3)
+    var student4 = Student("Mark", arrayOf(80.0, 87.0, 79.0))
+    var students = listOf(student1,student2, student3, student4)
     println(studentStatics(students))
 }
 
